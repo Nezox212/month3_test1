@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+.timer{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #433f3f;
+    margin: auto;
+    font-size: 96px;
+    color: white;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px rgb(255 255 255);
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+#start, #stop, #reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    color: red;
+    background-color: #000000;
+    box-shadow: 1px 1px 10px rgb(255 255 255);
+    border: 3px solid white;
+
+
+
+}
+#block{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 3px solid white;
+}
+.active{
+    background-color: #ff0000;
+
+}
+.userjson {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#loginInput {
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    background-color: #433f3f;
+    color: white;
+    border: none;
+    font-size: 48px;
+    border-radius: 40px;
+    outline: none;
+}
+
+#checkBtn {
+    height: 200px;
+    padding: 0 30px;
+    font-size: 32px;
+    background-color: #000000;
+    color: red;
+    border: 3px solid white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px rgb(255 255 255);
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#userCard {
+    min-width: 250px;
+    padding: 20px;
+    color: white;
+    background-color: #433f3f;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#userCard:empty {
+    display: none;
+}
+
+#userCard h3 {
+    margin: 0 0 10px;
+}
+
+#userCard p {
+    margin: 5px 0;
+}
+
+#userCard img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#message {
+    margin: 0;
+    color: red;
+    font-size: 24px;
+}

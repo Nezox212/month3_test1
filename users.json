@@ -1,0 +1,14 @@
+ [
+   {
+     "login": "admin",
+     "role": "Администратор",
+     "email": "admin@gmail.com",
+     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPLiwWkiK9lPTKNAlSfHTGoYxLYblIbtuho7QfvXtxig&s=10"
+   },
+   {
+     "login": "user",
+     "role": "Пользователь",
+     "email": "user@gmail.com",
+     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB2JwiBc9ucpdB16c01X-DlEmEX_mped2fz7iMv8M0Ew&s=10"
+   }
+ ]
